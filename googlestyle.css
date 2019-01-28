@@ -1,0 +1,82 @@
+.google{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width="272"
+height="92"
+}
+.container{
+text-align: center;
+}
+.container button{
+background-color: #d4d4d4;
+border: none;
+color: #757575;
+padding: 7px 30px;
+text-align: center;
+text-decoration: none;
+font-size: 13px;
+font-weight: bold;
+}
+.container button:hover{
+color: black;
+}
+.search{
+display: inline-block;
+height: 30px;
+width: 400px;
+border: none;
+border:1px solid #eaeaea;
+outline:none;
+}
+.search:hover{
+border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+.search:focus{
+border-color:#4d90fe;
+}
+.user{
+margin-left: auto;
+margin-right: auto;
+overflow: hidden;
+}
+.user ul{
+float: right;
+}
+.user li{
+list-style: none;
+position: relative;
+display: inline-block;
+}
+.user li a{
+display: inline;
+margin-right: 10px;
+font-family: Arial;
+font-size: 13px;
+text-decoration: none;
+}
+.user li button{
+background-color: blue;
+border: none;
+color: white;
+padding: 5px 10px;
+text-align: center;
+text-decoration: none;
+font-size: 13px;
+font-weight: bold;
+}
+.user li a:hover{
+text-decoration: underline;
+}
+.privacy{
+width: 48;
+height: 48;
+}
+.container li{
+list-style: none;
+position: relative;
+display: inline-block;
+}
+.container span{
+font-size: 12px;
+}
